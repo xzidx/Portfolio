@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>Portfolios</title>
 </head>
 <body>
       <div class="continer">
-                    <div class="head">
+                                        <div class="head">
                                         <div class="menu">
                                                 <ul>
-                                                 <li>Home</li>
-                                                 <li>Services</li>
-                                                 <li>Work</li>
-                                                 <li>Blog</li>
+                                                <a href="#myHome"> <li>Home</li></a>
+                                                <a href="#mySever"><li>Services</li></a>
+                                                <a href="#myWork"><li>Work</li></a>
+                                                <a href="#myBlog"><li>Blog</li></a>
                                                 </ul>
                                         </div>
                     </div>
                     <div class="landing-page">
                                     
-                                    <div class="background">                            
-                                                    <img src="-background-img.jpg" alt="">
-                                                    <div class="human-picture">
+                                    <div class="background" id="myHome">                            
+                                                    <img src="-background-img.jpg" alt="" >
+                                                    <div class="human-picture"  data-aos="fade-up">
                                                             <img src="-kakda (1) 1.png" alt="">
                                                             
                                                     </div>
-                                                    <div class="name-kakada">
+                                                    <div class="name-kakada" data-aos="fade-right">
                                                          <h1>Yan</h1>
                                                          <h2>Kakada</h2>
                                                                 <div class="box-line"></div>
@@ -37,11 +38,11 @@
                                                                         <div class="info-link"><i class="fa-brands fa-instagram ig"></i></div>
                                                                 </div>
                                                     </div>
-                                                    <div class="intro">
+                                                    <div class="intro" data-aos="fade-left">
                                                              <h1>-Introduction</h1>
                                                              <h2>Product Designer and Developer,based in Cambodia</h2>
                                                               <p>I’m a friendly person and hardworking.I do front-end and back-end.See all of nice project i have done.Learn more about my self.</p>
-                                                              <h3>My story <i class="fa-solid fa-arrow-right arrow"></i></h3>
+                                                              <a href="" style="text-decoration: none;"><h3>My story <i class="fa-solid fa-arrow-right arrow"></i></h3></a>
                                                               <div class="line-story"></div>
                                                     </div>
 
@@ -50,18 +51,19 @@
                     </div>
                     <div class="cover-mid-page">
                                         <div class="mid-page">
-                                                    <div class="about-me">
+                                                    <div class="about-me" id="myAbout">
                                                                 <h1>- About me</h1>
                                                                     <P>Hello, I'm Yan Kakada 19 years old, a passionate <br>designer based in Cambodia. With a keen eye <br>for aesthetics and a love for creativity, I strive to <br> bring innovative ideas to life through my designs.</P>
                                                     </div>
-                                                    <div class="about-me-picture">
+                                                    <div class="about-me-picture" >
                                                             <img src="-about-me-picture.png" alt="">
                                                     </div>
                                                     <div class="skill-info">
                                                                 <h1>Skills</h1>
                                                                 <div class="box-line-skill"></div>
                                                                 <div class="box-skill-info">
-                                                                                <div class="skill-one">
+                                                                               <a href="">
+                                                                                        <div class="skill-one" >
                                                                                                 <div class="skill-one-minibox"><h1>1</h1></div>
                                                                                                 <div class="skill-one-letter"><h1>Web Design</h1></div>
                                                                                                 <div class="skill-line-up"></div>
@@ -70,8 +72,10 @@
                                                                                                                 Responsive Design <br>
                                                                                                                 User Research</h1>
                                                                                                 </div>
-                                                                                </div>
-                                                                                <div class="skill-one">
+                                                                                        </div>
+                                                                               </a> 
+                                                                                <a href="">
+                                                                                        <div class="skill-one">
                                                                                                 <div class="skill-one-minibox"><h1>2</h1></div>
                                                                                                 <div class="skill-one-letter"><h1>Fronted</h1></div>
                                                                                                 <div class="skill-line-up"></div>
@@ -81,8 +85,10 @@
                                                                                                                         NextJS <br>
                                                                                                                         CSS3</h1>
                                                                                                 </div>
-                                                                                </div>
-                                                                                <div class="skill-one">
+                                                                                        </div>
+                                                                                </a>
+                                                                                <a href="">
+                                                                                        <div class="skill-one" >
                                                                                                 <div class="skill-one-minibox"><h1>3</h1></div>
                                                                                                 <div class="skill-one-letter"><h1>Backend</h1></div>
                                                                                                 <div class="skill-line-up"></div>
@@ -91,8 +97,10 @@
                                                                                                                         MondoDB <br>
                                                                                                                         ExpressJS</h1>
                                                                                                 </div>
-                                                                                </div>
-                                                                                <div class="skill-one">
+                                                                                        </div>
+                                                                                </a>
+                                                                                <a href="">
+                                                                                        <div class="skill-one" >
                                                                                                 <div class="skill-one-minibox"><h1>4</h1></div>
                                                                                                 <div class="skill-one-letter"><h1>Soft Skills</h1></div>
                                                                                                 <div class="skill-line-up"></div>
@@ -101,7 +109,8 @@
                                                                                                                 Commitment <br>
                                                                                                                 Collaboration</h1>
                                                                                                 </div>
-                                                                                </div>
+                                                                                        </div>
+                                                                                </a>
                                                                                 
                                                                 </div>
                                                     </div>
@@ -134,7 +143,7 @@
                                                                 <div class="mini-box-show-more-text"><h1>124 Projects</h1></div>
                                                                 
                                                 </div>
-                                                <div class="box-mini-info" style="background-color: #3C3A3A;">
+                                                <div class="box-mini-info">
                                                                 <div class="cover-box-info">
                                                                         <div class="mini-box-show"><i class="fa-solid fa-comment box-show"></i></i></div>
                                                                         <div class="mini-box-show-text"><h1>Branding Designer.</h1></div>
@@ -143,7 +152,7 @@
                                                                 <div class="mini-box-show-more-text"><h1>85 Projects</h1></div>
                                                                 
                                                 </div>
-                                                <div class="box-mini-info" style="background-color: #3C3A3A;"> 
+                                                <div class="box-mini-info"> 
                                                                 <div class="cover-box-info">
                                                                         <div class="mini-box-show"><i class="fa-solid fa-laptop-code box-show"></i></i></div>
                                                                         <div class="mini-box-show-text"><h1>Full Stack Developer.</h1></div>
@@ -181,19 +190,19 @@
                                                         </div>
                                         </div>
                                         <div class="cover-feren">
-                                                        <div class="feren">
-                                                                <h1>References</h1>
-                                                                <div class="feren-picture">
-                                                                        <img src="-Feren.png" alt="">
-                                                                </div>
-                                                                <div class="feren-text">
-                                                                        <p>During his time with our company, Yan Kakada has shown great responsibility, dedication, and teamwork. He consistently performs his duties with professionalism and a positive attitude. He is a reliable worker who learns quickly and contributes effectively to our team.</p>
-                                                                        <h2>Bro Sigma</h2>
-                                                                        <h3>CEO of ABA Company</h3>
-                                                                </div>
+                                                <div class="feren">
+                                                        <h1>References</h1>
+                                                        <div class="feren-picture">
+                                                                <img src="-Feren.png" alt="">
                                                         </div>
+                                                        <div class="feren-text">
+                                                                <p>During his time with our company, Yan Kakada has shown great responsibility, dedication, and teamwork. He consistently performs his duties with professionalism and a positive attitude. He is a reliable worker who learns quickly and contributes effectively to our team.</p>
+                                                                <h2>Bro Sigma</h2>
+                                                                <h3>CEO of ABA Company</h3>
+                                                        </div>
+                                                </div>
                                         </div>
-                                        <div class="cover-web">
+                                        <div class="cover-web" id="myWork">
                                                         <div class="web">
                                                                 <h1>All Creative works, <br> Selected projects.</h1>
                                                                 <h2>But that you may see from where all this <br>error is born, the will of those accusing</h2>
@@ -204,20 +213,61 @@
                                                                 
                                                         </div>
                                         </div>
-                                        <div class="cover-sever">
+                                <div class="cover-sever" id="mySever">
                                                  <div class="sever">
                                                          <h1>My Services</h1>
                                                          <div class="box-sever">
                                                                 <div class="card">
                                                                                         <div class="card1">
-                                                                                        <div class="img3">
-                                                                                                <img src="image.png" alt="">
+                                                                                        <div class="sever-icon">
+                                                                                                <i class="fa-solid fa-outdent sever-icon-one"></i>
                                                                                         </div>
                                                                                         <div class="text">
                                                                                                 <h2>    
-                                                                                                UI-UX
-                                                                                                CREATIVE
+                                                                                                UI-UX <br>
+                                                                                                CREATIVE <br>
                                                                                                 DESIGN
+                                                                                                </h2>
+                                                                                        </div>
+                                                                                        <div class="read-more">
+                                                                                                <p>
+                                                                                                READ MORE <span><i class="fa-solid fa-arrow-right"></i></span>
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        </div>
+                                                                                        
+                                                                                        
+                                                                </div>
+                                                                 <div class="card">
+                                                                                        <div class="card1">
+                                                                                        <div class="sever-icon">
+                                                                                                <i class="fa-solid fa-laptop-code sever-icon-one"></i>
+                                                                                        </div>
+                                                                                        <div class="text">
+                                                                                                <h2>    
+                                                                                                VISUAL <br>
+                                                                                                GRAPHIC SIGN
+                                                                                                </h2>
+                                                                                        </div>
+                                                                                        <div class="read-more">
+                                                                                                <p>
+                                                                                                READ MORE <span><i class="fa-solid fa-arrow-right"></i></span>
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        </div>
+                                                                                        
+                                                                                        
+                                                                </div>
+                                                                <div class="card">
+                                                                                        <div class="card1">
+                                                                                        <div class="sever-icon">
+                                                                                                <i class="fa-solid fa-sitemap sever-icon-one"></i>
+                                                                                        </div>
+                                                                                        <div class="text">
+                                                                                                <h2>    
+                                                                                                STRATEGY & <br>
+                                                                                                DIGITAL <br>
+                                                                                                MARKETING
                                                                                                 </h2>
                                                                                         </div>
                                                                                         <div class="read-more">
@@ -232,6 +282,81 @@
                                                          </div>
                                                  </div>
                                         </div>
+                                        <div class="cover-blog" id="myBlog">
+                                                <div class="blog">
+                                                        <h1>- Blog</h1>
+                                                        <h2>What’s new? My blog <br>and news</h2>
+                                                        <div class="blog-pick">
+                                                                <h1>Feb 26 -blog</h1>
+                                                                <h2>Let this be lesson to you</h2>
+                                                                <i class="fa-solid fa-arrow-right blog-icon"></i>
+
+                                                        </div>
+                                                        <div class="blog-pick" style="top: 180px;">
+                                                                <h1>Feb 14 -blog</h1>
+                                                                <h2>How do you made this projects?</h2>
+                                                                <i class="fa-solid fa-arrow-right blog-icon"></i>
+
+                                                        </div>
+                                                        <div class="blog-pick" style="top: 320px;">
+                                                                <h1>Feb 9 -blog</h1>
+                                                                <h2>What tool you use to make this website?</h2>
+                                                                <i class="fa-solid fa-arrow-right blog-icon"></i>
+
+                                                        </div>
+                                                        
+                                                        <div class="feren" style="width: 1400px; margin: auto; height: 700px; position: absolute; bottom: 0;">
+                                                                <div class="feren-picture" style="background-color: black;">
+                                                                        <img src="-mr-lucky.png" alt="">
+                                                                </div>
+                                                                <div class="feren-text">
+                                                                        <p>Wonderful! But we truly consider those worthy of both blame and just hatred who are content with the present pleasure of a rich man, who is not a man of pleasure!</p>
+                                                                        <h2 style="margin-top: 120px; margin-left: 0;">Bro Lucky</h2>
+                                                                        <h3 style="font-size: 15px;">CEO of Good boy company</h3>
+                                                                </div>
+                                                        </div>
+                                        
+                                                </div>
+                                        </div>
+                                        <div class="cover-talk">
+                                                                <div class="talk">
+                                                                                <div class="contact-minibox" style="width: 1400px; height: 960px; margin: auto;">
+                                                                                <h2 style="margin: 0; margin-left: 120px; font-size: 30px;">Got a project? <br>Let's talk.</h2>
+                                                                                <h3 style="margin-left: 120px; margin-top: 20px;">But so that you may see where this <br> entire error of those accusing pleasure <br> has arisen.</h3>
+                                                                                <h4 style="margin-left: 120px; margin-top: 20px;">Kakada.com <i class="fa-solid fa-arrow-right arrow"></i></h4>
+                                                                                <h2 style="position: absolute; top: 0; right: 300px;">Estimate your project?<br> Let me know here</h2>
+                                                                                <div class="ask">
+                                                                                                <div class="talk-text">
+                                                                                                        <h1>What's your name?</h1>
+                                                                                                </div>
+                                                                                                <div class="talk-text">
+                                                                                                        <h1>Your fancy email</h1>
+                                                                                                </div>
+                                                                                                <div class="talk-text">
+                                                                                                        <h1>Tell me about your project </h1><i class="fa-solid fa-arrow-right icon-talk"></i>
+                                                                                                </div>
+                                                                                </div>
+                                                                                <div class="thank">
+                                                                                        <h1>Thanks for scrolling,</h1><h2> that’s all folks.</h2>
+                                                                                </div>
+                                                                                <div class="app-click">
+                                                
+                                                                                                        <div class="info-link"><i class="fa-brands fa-facebook fb"></i></div>
+                                                                                                        <div class="info-link"><i class="fa-brands fa-telegram tg"></i></div>
+                                                                                                        <div class="info-link"><i class="fa-brands fa-instagram ig"></i></div>
+                                                                                                
+                                                                                </div>
+
+                                                                        </div>  
+                                                                        
+                                                                </div>
+                                                                        
+                                                                        
+                                                                        
+                                                                
+                                                
+                                        </div>
+                                        
 
                     </div>
                     
@@ -239,5 +364,13 @@
 
 
       </div>
+      <<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+        duration: 1200 ,// sets default animation duration to 1.5 seconds,
+         once: false   
+        });
+</script>
+
 </body>
-</html>
+</html> 
