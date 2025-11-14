@@ -364,13 +364,30 @@
 
 
       </div>
-      <<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
         duration: 1200 ,// sets default animation duration to 1.5 seconds,
          once: false   
         });
 </script>
+         <script>
+    let direction = 1;
 
+    function autoScroll() {
+        window.scrollBy(0, direction);
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            direction = -1;
+        }
+        if (window.scrollY <= 0) {
+            direction = 1;
+        }
+
+        requestAnimationFrame(autoScroll);
+    }
+
+    autoScroll();
+    </script>
 </body>
 </html> 

@@ -1008,7 +1008,7 @@ html {
     .menu {
         width: 100%;
         word-spacing: 25px;
-        margin-left: 110px;
+        margin-left: 80px;
     }
     .menu ul{
         margin: 0;
@@ -1020,7 +1020,7 @@ html {
         width: 100%;
     }
     .background{
-        margin-top: 100px;
+        margin-top: 10px;
         width: 100%;
         
     }
@@ -1039,6 +1039,10 @@ html {
     .human-picture img{
         width: 250px;
         
+    }
+    .landing-page {
+        /* bottom: 100px; */
+        /* margin-bottom: 100px; */
     }
 }
 
