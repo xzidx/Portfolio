@@ -371,23 +371,6 @@
          once: false   
         });
 </script>
-         <script>
-    let direction = 1;
-
-    function autoScroll() {
-        window.scrollBy(0, direction);
-
-        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            direction = -1;
-        }
-        if (window.scrollY <= 0) {
-            direction = 1;
-        }
-
-        requestAnimationFrame(autoScroll);
-    }
-
-    autoScroll();
-    </script>
+         
 </body>
 </html> 
